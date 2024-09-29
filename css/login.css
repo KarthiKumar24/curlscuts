@@ -1,0 +1,64 @@
+:root {
+  --primary: #072957 !important;
+  --secondary: #068ecd !important;
+  --light: #072a57ab;
+  --footer: #0b0b0b;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.text-secondary {
+  color: var(--secondary) !important;
+}
+.text-light {
+  color: var(--light) !important;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.clr-primary {
+  background-color: var(--primary);
+}
+.clr-secondary {
+  background-color: var(--secondary);
+}
+.clr-light {
+  background-color: var(--light);
+}
+.clr-footer {
+  background-color: var(--footer);
+}
+.border-bottom {
+  border-bottom: 1px solid var(--secondary) !important;
+}
+
+
+.login-container{
+  background-image: url("../img/barberCuts.gif");
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-image: fill 2 linear-gradient(#0001, #0001, #fff);
+  
+}
+input:focus,
+button:focus {
+  border: 1px solid var(--secondary) !important;
+  box-shadow: none !important;
+}
+.form-control {
+  border: 1px solid var(--secondary);
+}
+.form-check-input:checked {
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+}
+
+.card,
+.btn,
+input {
+  border-radius: 4 !important;
+}

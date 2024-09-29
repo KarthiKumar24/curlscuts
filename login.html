@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top py-lg-0 px-lg-5 ">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="mb-0 fs-4 text-primary text-uppercase"><i class="fa fa-cut me-3"></i>Curl Cuts</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"><i
+                class="fa-solid fa-bars-staggered"></i></button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="./index.html" class="nav-item nav-link">Home</a>
+                <a href="./about.html" class="nav-item nav-link">About</a>
+                <a href="./service.html" class="nav-item nav-link">Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Other &nbsp;<i
+                            class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu m-0">
+                        <a href="./price.html" class="dropdown-item">Price Plan</a>
+                        <a href="./team.html" class="dropdown-item">Our Team</a>
+                    </div>
+                </div>
+            </div>
+            <a href="login.html"
+                class="btn text-white clr-primary rounded-0 py-2 px-lg-4 d-none d-lg-block  active">Appointment<i
+                    class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+
+
+    <div class="login-container h-100 p-lg-5 p-3">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="card shadow">
+                        <div class="card-title text-center border-bottom">
+                            <h2 class="p-3 text-secondary text-uppercase">Login</h2>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-4">
+                                    <label for="username" class="form-label">Username/Email</label>
+                                    <input type="text" class="form-control" id="username" required />
+                                </div>
+                                <div class="mb-4">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password" required />
+                                </div>
+                                <div class="mb-4">
+                                    <input type="checkbox" class="form-check-input" id="remember" required/>
+                                    <label for="remember" class="form-label">Remember Me</label>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn clr-secondary text-white">Login</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</html>
+
+<!-- Footer Start -->
+<div class="container-fluid clr-secondary text-light footer mt-5 pt-5 ">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-uppercase mb-4" id="Appointment">Get In Touch</h4>
+                <div class="d-flex align-items-center mb-2">
+                    <div class="btn-square clr-primary flex-shrink-0 me-3">
+                        <span class="fa fa-map-marker-alt text-secondary"></span>
+                    </div>
+                    <span>No-143, KK Nagar, Madurai-16</span>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <div class="btn-square clr-primary flex-shrink-0 me-3">
+                        <a href="tel:9790477908"><span class="fa fa-phone-alt text-secondary"></span></a>
+                    </div>
+                    <span>+91 9790477908</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="btn-square clr-primary flex-shrink-0 me-3">
+                        <a href="mailto:karthikumarofficial24@gmail.com"><span
+                                class="fa fa-envelope-open text-secondary"></span></a>
+                    </div>
+                    <span>karthikumarofficial24@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-uppercase mb-4">Quick Links</h4>
+                <a class="btn btn-link" href="./about.html">About Us</a>
+                <a class="btn btn-link" href="./service.html">Our Services</a>
+                <a class="btn btn-link" href="./open.html">Working Hours</a>
+                <a class="btn btn-link" href="./price.html">Price Plan</a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="text-uppercase mb-4">Newsletter</h4>
+                <div class="position-relative mb-4">
+                    <form action="">
+                        <input type="email" id="email" class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                            placeholder="Your email" required>
+                        <button type="submit"
+                            class="btn clr-primary text-white py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </form>
+                </div>
+                <div class="d-flex pt-1 m-n1">
+                    <a class="btn btn-lg-square clr-primary text-secondary m-1" target="_blank"
+                        href="https://x.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg-square clr-primary text-secondary m-1" target="_blank"
+                        href="https://www.facebook.com/login/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg-square clr-primary text-secondary m-1" target="_blank"
+                        href="https://wa.me/919790477908"><i class="fab fa-whatsapp"></i></a>
+                    <a class="btn btn-lg-square clr-primary text-secondary m-1" target="_blank"
+                        href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="col-md-100 text-center text-md-center mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#">Curl Cuts</a>, All Right Reserved 2024.
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Back to Top -->
+<a href="#" class="btn clr-primary text-secondary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

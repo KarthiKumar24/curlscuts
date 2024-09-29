@@ -1,0 +1,89 @@
+:root {
+  --primary: #072957 !important;
+  --secondary: #068ecd !important;
+  --light: #072a57ab;
+  --footer: #0b0b0b;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.text-secondary {
+  color: var(--secondary) !important;
+}
+.text-light {
+  color: var(--light) !important;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.clr-primary {
+  background-color: var(--primary);
+}
+.clr-secondary {
+  background-color: var(--secondary);
+}
+.clr-light {
+  background-color: var(--light);
+}
+.clr-footer {
+  background-color: var(--footer);
+}
+
+.pfl-box {
+  border-radius: 20px;
+}
+
+/*** Validate Page ***/
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--primary);
+  color: white;
+  font-weight: 600;
+}
+.nav-link {
+  font-weight: 600;
+  color: var(--light);
+}
+.nav-link:hover {
+  color: var(--light);
+}
+
+.sc-links {
+  background-color: var(--primary);
+  color: white;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px var(--primary);
+}
+.sc-links:hover {
+  box-shadow: 0px 2px 10px var(--primary);
+  color: white !important;
+}
+
+.form-check-input:checked {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.frgt-pass {
+  color: var(--light);
+}
+a{
+  color: var(--primary);
+}
+.frgt-pass a,a:hover {
+  color: var(--primary);
+}
+
+@media screen and (max-width: 320px) {
+  .pfl-box {
+    height: fit-content;
+  }
+  .prfl-detail q {
+    font-size: 12px !important;
+    line-height: inherit !important;
+    all: inherit;
+    text-align: justify;
+  }
+}
